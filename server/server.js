@@ -27,5 +27,12 @@ const  sentMessageToGmail  = require("./Controllers/gmail.controller");
 
 app.post('/api/sendmessage', sentMessageToGmail);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`App connected successfully on port`));
+
+module.exports = app;
+
+if (require.main === module) {
+  const PORT = process.env.PORT || 5000;;
+  app.listen(PORT, () => console.log(`App connected successfully on port`));
+}
+
+
