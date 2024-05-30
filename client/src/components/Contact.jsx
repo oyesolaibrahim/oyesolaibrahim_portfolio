@@ -24,7 +24,7 @@ const Contact = () => {
     e.preventDefault();
     setSending(true); 
     try {
-      const response = await axios.post('http://localhost:4500/api/sendmessage', formData, {
+      const response = await axios.post('http://oyesolaibrahim-portfolio-1.onrender.com/api/sendmessage', formData, {
         headers: {
           'Content-Type': 'application/json'
         }
