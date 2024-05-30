@@ -30,6 +30,6 @@ app.post('/api/sendmessage', sentMessageToGmail);
 
 
   const PORT = process.env.PORT || 5000;;
-  app.listen(PORT, () => console.log(`App connected successfullys`));
+  app.listen(PORT, () => console.log(`App connected successfully`));
 
 
