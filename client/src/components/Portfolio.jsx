@@ -3,6 +3,7 @@ import sunnySideImage from "../assets/desktop-desig.jpg";
 import staticJobListingImg from "../assets/desktop-design.jpg";
 import tipCalculatorImage from "../assets/desktop-design-completed.jpg";
 import spaceTourismImage from "../assets/space-img.jpg";
+import quizImage from "../assets/logo.png";
 import { useTheme } from "./ThemeMode";
 import shortenImage from "../assets/shorten.jpg"
 import Nav_desktop from "./Nav(desktop)";
@@ -83,7 +84,14 @@ return (
                 {/*<p>Built using Expres.js to handle routing and middleware and EJS was utilized as the template engine for generating HTML content </p>*/}
             </article>
             <article className="portfolio column">
-                <img src={profileImage} alt=""/>
+                <img src={quizImage} alt=""/>
+                <div className="layer">
+                    <h3>Quiz App</h3>
+                    <p>This project is a simple quiz app with a wide range of quizzes on various subjects.</p>
+                    <a href="https://quiz-app-mu-blue.vercel.app/" target="_blank" rel="noreferrer"><i className="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <p className="article-p">ReactJs, SCSS, ExpressJs, MongoDB </p>
             </article>
             <article className="portfolio column">
                 <img src={profileImage} alt=""/>
