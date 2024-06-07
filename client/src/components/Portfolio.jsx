@@ -4,6 +4,8 @@ import staticJobListingImg from "../assets/desktop-design.jpg";
 import tipCalculatorImage from "../assets/desktop-design-completed.jpg";
 import spaceTourismImage from "../assets/space-img.jpg";
 import quizImage from "../assets/logo.png";
+import reehlaImage from "../assets/reehla2.png";
+import realBabsImage from "../assets/reelbabs2.png";
 import { useTheme } from "./ThemeMode";
 import shortenImage from "../assets/shorten.jpg"
 import Nav_desktop from "./Nav(desktop)";
@@ -94,6 +96,26 @@ return (
                 <p className="article-p">ReactJs, SCSS, ExpressJs, MongoDB </p>
             </article>
             <article className="portfolio column">
+                <img src={reehlaImage} alt=""/>
+                <div className="layer">
+                    <h3>Reehla Outfitters and Fragrance</h3>
+                    <p>A real-world simple e-commerce app to order jalabs and fragrances.</p>
+                    <a href="https://reehla-outfitters.vercel.app/" target="_blank" rel="noreferrer"><i className="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <p className="article-p">ReactJs, Tailwind, ExpressJs, MongoDB </p>
+            </article>
+            <article className="portfolio column">
+                <img src={realBabsImage} alt=""/>
+                <div className="layer">
+                    <h3>RealBabs Jalabs and Fragrance Store</h3>
+                    <p>A real-world simple e-commerce app to order jalabs and fragrances..</p>
+                    <a href="https://realbabs.vercel.app/" target="_blank" rel="noreferrer"><i className="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <p className="article-p">ReactJs, Tailwind, ExpressJs, MongoDB </p>
+            </article>
+            {/* <article className="portfolio column">
                 <img src={profileImage} alt=""/>
             </article>
             <article className="portfolio column">
@@ -101,13 +123,7 @@ return (
             </article>
             <article className="portfolio column">
                 <img src={profileImage} alt=""/>
-            </article>
-            <article className="portfolio column">
-                <img src={profileImage} alt=""/>
-            </article>
-            <article className="portfolio column">
-                <img src={profileImage} alt=""/>
-            </article>
+            </article> */}
 
         </section>
 	</main>
