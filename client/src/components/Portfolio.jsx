@@ -103,7 +103,7 @@ return (
                     <a href="https://reehla-outfitters.vercel.app/" target="_blank" rel="noreferrer"><i className="fa fa-external-link" aria-hidden="true"></i>
                     </a>
                 </div>
-                <p className="article-p">ReactJs, Tailwind, ExpressJs, MongoDB </p>
+                <p className="article-p">React, Tailwind, Express, Mongo </p>
             </article>
             <article className="portfolio column">
                 <img src={realBabsImage} alt=""/>
@@ -113,7 +113,7 @@ return (
                     <a href="https://realbabs.vercel.app/" target="_blank" rel="noreferrer"><i className="fa fa-external-link" aria-hidden="true"></i>
                     </a>
                 </div>
-                <p className="article-p">ReactJs, Tailwind, ExpressJs, MongoDB </p>
+                <p className="article-p">React, Tailwind, Express, Mongo </p>
             </article>
             {/* <article className="portfolio column">
                 <img src={profileImage} alt=""/>
