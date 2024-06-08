@@ -93,7 +93,7 @@ return (
                     <a href="https://quiz-app-mu-blue.vercel.app/" target="_blank" rel="noreferrer"><i className="fa fa-external-link" aria-hidden="true"></i>
                     </a>
                 </div>
-                <p className="article-p">ReactJs, SCSS, ExpressJs, MongoDB </p>
+                <p className="article-p">React, SCSS, Express, Mongo </p>
             </article>
             <article className="portfolio column">
                 <img src={reehlaImage} alt=""/>
