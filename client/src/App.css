@@ -14,7 +14,7 @@
   display: -webkit-flex;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 .column {
   display: flex;
@@ -51,7 +51,7 @@ main {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(255, 56, 0, 0.7);
+  background: #FFD700;
 }
  
 /* Handle */
@@ -61,7 +61,8 @@ main {
 }
 /*---Navigation--*/
 .nav {
-  background-color: rgba(255, 150, 100);
+  /* background-color: rgba(255, 150, 100); */
+  background-color: #333333;
   position: fixed;
   top: 0px;
   height: 100vh;
@@ -86,16 +87,17 @@ main {
 .home, .contact, .about-me, .portfolio {
   transition: all 1s;
 }
-  .home:hover, .about-me:hover, .portfolio:hover, .contact:hover{
+  .hovered{
     transform: translateX(25px);
   }
-
+.font {
+  font-size: 20px;
+}
 
 
 /*---------------main-------------*/
 main {
   margin-left: 11%;
- background-color: #ff3800;
   position: absolute;
   top : 0px;
   left: 9%;
@@ -143,13 +145,11 @@ font-size: 0rem;
   cursor: pointer;
 }
 .color-selecion {
-  border: 1px solid #ff3800;
-  border-radius: 50%;
-  width: 25%;
+  border-radius: 100%;
+  width: 25px;
 }
  .one {
-   background-color:#ff3800;
-   color: #ca9e1a;
+   background-color:#000000;
 }
  .two {
    background-color:  #83580b;
@@ -186,7 +186,7 @@ h1 {
     
 /******Article-----*/
 
-#ul-2, #technologies {
+ #technologies {
   margin-left: 100px;
 }
 #ul-1 *, #ul-2 * {
@@ -196,9 +196,6 @@ margin: 10px 0px;
   font-size: 1.4rem;
   font-weight: bold;
 }
- span {
-  color: #155263;
- }
 section {
   margin-top: 50px;
 }
@@ -380,18 +377,14 @@ h1 {
   margin: 20px 0px;
 }
 #html-level, #css-level, #tailwind-level, #react-level, #express-level {
-  border: 1px solid rgba(255, 0, 0, 0.5);
   height: 7px;
   width: 450px;
   border-radius: 7px;
   position: relative;
-  background-color: rgb(255, 100, 50);
 }
 #html-percentage, #css-percentage, #tailwind-percentage, #react-percentage, #express-percentage {
-  border: 1px solid #ff3800;
   border-radius: 7px;
-  height: 7px;
-  background-color: #155263;
+  height: 5px;
   position: absolute;
   top: -10px;
 }
@@ -502,16 +495,14 @@ div.center {
 .start * {
   margin: 10px;
 }
-.fa-5x {
-  color: #155263;
-}
+
 .label input {
   width: 100%;
   margin: 10px 0px;
   height: 10vh;
   font-size: 1.3rem;
   text-align: center;
-  background-color: rgb(255, 100, 50);
+  color: white;
   border-radius: 30px;
   border-style: none;
 }
@@ -524,7 +515,6 @@ div.center {
 }
 .send {
   padding: 10px 20px;
-  background-color: #155263;
   color: white;
   border-style: none;
   border-radius: 10px;
@@ -538,9 +528,6 @@ div.center {
   display: none;
 }
 
-.nav2 div:hover, .nav2 div.home-home {
-  background-color: #ff3800;
-}
  #msgDelivered {
   color: white;
  }
@@ -606,12 +593,8 @@ div.center {
   .nav2 div {
     overflow-y: hidden;
     margin: 20px 20px;
-    background-color:rgb(255, 100, 50);
     padding: 20px 30px;
     border-radius: 10px;
-  }
-  .nav2 div.home-home {
-    background-color: #ff3800;
   }
   .nav2 div a {
     color: white;
@@ -637,11 +620,11 @@ div.center {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
   }
   .column2 {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
   }
   #html-level, #css-level, #tailwind-level, #react-level, #express-level {
     width: 450px;
@@ -688,7 +671,6 @@ div.center {
   }
   .nav2 div {
     margin: 20px 10px;
-    background-color:rgb(255, 100, 50);
     padding: 20px 30px;
     border-radius: 10px;
   }
@@ -754,7 +736,6 @@ div.center {
 }
 .nav2 div {
   margin: 10px 2px;
-  background-color:rgb(255, 100, 50);
   padding: 10px 5px;
   border-radius: 10px;
 }
@@ -803,7 +784,6 @@ div.center {
 
   .nav2 div {
     margin: 10px 2px;
-    background-color:rgb(255, 100, 50);
     padding: 25px;
     border-radius: 10px;
   }
@@ -832,6 +812,9 @@ div.center {
   }
   .flex-contact {
     margin: 20px auto;
+  }
+  article.portfolio {
+    max-width: 46%;
   }
   article.portfolio:hover .layer {
     height: 30.7vh;
@@ -940,7 +923,6 @@ div.center {
 @media screen and (max-width:350px) {
   
   .nav2 {
-    background-color: rgba(255, 56, 0, 0.7);
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -950,7 +932,6 @@ div.center {
   }
   .nav2 div {
     margin: 10px 2px;
-    background-color:rgb(255, 100, 50);
     padding: 10px 3px;
     border-radius: 10px;
   }
@@ -999,7 +980,7 @@ div.center {
     justify-content: center;
     align-items: center;
   }
-  main.about-me-main {
+  main#about-me-main {
     padding: 150px;
   }
   #html-level, #css-level, #tailwind-level, #react-level, #express-level {

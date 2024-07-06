@@ -39,7 +39,7 @@ const Index = () => {
                     </div>
                     <div id="button-container">
                         <Link style={{backgroundColor: theme.buttonBackgroundColor}} className="button button1" to={"/About"}>More About Me</Link>
-                        <a style={{backgroundColor: theme.buttonBackgroundColor}} className="button button2" href="assets/profilep.jpg" download="oyesolaCV">Download CV</a>
+                        {/* <a style={{backgroundColor: theme.buttonBackgroundColor}} className="button button2" href="assets/profilep.jpg" download="oyesolaCV">Download CV</a> */}
                     </div>
                     <div id="social-media-handles">
                         <a href="https://web.facebook.com/oyesola.ibrahim.3/" target="_blank" rel="noreferrer"><i className="fa fa-facebook-official fa-2x" aria-hidden="true"></i>                    </a>

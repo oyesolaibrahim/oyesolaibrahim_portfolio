@@ -10,17 +10,17 @@ const Theme = () => {
 
     const Red = () => {  
         changeTheme({
-        mainBackgroundColor: '#ff3800',
-        navBackgroundColor: 'rgba(255, 150, 100)',
-        buttonBackgroundColor: '#155263',
-        spanBackgroundColor: '#155263',
-        navDivbackgroundColor: 'rgb(255, 100, 50)',
-        technologiesBackgroundColor: 'rgb(255, 100, 50)',
-        technologiesBorder: '1px solid #ff3800',
-        technologiesPercentagesBackgroundColor: '#155263',
-        technologiesPercentagesBorder: '1px solid #ff3800',
-        h3BackgroundColor: '#155263',
-        labelsBackgroundColor: 'rgb(255, 100, 50)',
+        mainBackgroundColor: '#000000',
+        navBackgroundColor: '#333333',
+        buttonBackgroundColor: '#FFD700',
+        spanBackgroundColor: '#FFD700',
+        navDivbackgroundColor: '#666666',
+        technologiesBackgroundColor: '#333333',
+        technologiesBorder: '1px solid #333333',
+        technologiesPercentagesBackgroundColor: '#FFD700',
+        technologiesPercentagesBorder: '1px solid ##FFD700',
+        h3BackgroundColor: '#FFD700',
+        labelsBackgroundColor: '#333333',
       });
     }
     

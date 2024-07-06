@@ -56,8 +56,7 @@ const About = () => {
                                         </div>
                                         <div className="details">
                                             <li className="h3">Phone:</li>
-                                            <li>+2348168085157</li>
-                                            <li>+2347049509803</li>
+                                            <li>+2348168085157, +2347049509803</li>
                                         </div>
                                         <div className="details">
                                              <li className="h3">Freelance:</li>
@@ -104,7 +103,7 @@ const About = () => {
                             </div>
                         </div>
                                 <div id="button-container" className="button-about">
-                                    <a style={{backgroundColor: theme.buttonBackgroundColor}} className="button" href="assets/profilep.jpg" download="oyesolaCV">Download CV</a>
+                                    {/* <a style={{backgroundColor: theme.buttonBackgroundColor}} className="button" href="assets/profilep.jpg" download="oyesolaCV">Download CV</a> */}
                                     {/*<a style={{backgroundColor: theme.buttonBackgroundColor}} class="button" href="/Contact">Connect</a>*/}
                                     <Link style={{backgroundColor: theme.buttonBackgroundColor}} className="button" to="/Contact">Connect</Link>
                                 </div>
