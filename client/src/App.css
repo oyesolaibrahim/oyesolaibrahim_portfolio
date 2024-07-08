@@ -128,7 +128,7 @@ a, li {
   right: -200px;
   top: 12%;
   width: 150px;
-  height: 10vh;
+  height: 50px;
   padding: 10px 10px;
   border-radius: 10px;
   transition: 1s;
@@ -145,8 +145,9 @@ font-size: 0rem;
   cursor: pointer;
 }
 .color-selecion {
-  border-radius: 100%;
+  border-radius: 50%;
   width: 25px;
+  height: 25px;
 }
  .one {
    background-color:#000000;
