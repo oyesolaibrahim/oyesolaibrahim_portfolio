@@ -43,7 +43,7 @@ const Index = () => {
                     </div>
                     <div id="social-media-handles">
                         <a href="https://web.facebook.com/oyesola.ibrahim.3/" target="_blank" rel="noreferrer"><i className="fa fa-facebook-official fa-2x" aria-hidden="true"></i>                    </a>
-                        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>                    </a>
+                        <a href="https://www.linkedin.com/in/ibrahim-oyesola-356693282/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>                    </a>
         
                         <a href="https://wa.link/hwaf21" target="_blank" rel="noreferrer"><i className="fa fa-whatsapp fa-2x" id="twitter-img" aria-hidden="true"></i></a>
                         <a href="https://github.com/dashboard" target="_blank" rel="noreferrer"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
