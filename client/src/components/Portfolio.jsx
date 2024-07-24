@@ -3,9 +3,9 @@ import sunnySideImage from "../assets/desktop-desig.jpg";
 import staticJobListingImg from "../assets/desktop-design.jpg";
 import tipCalculatorImage from "../assets/desktop-design-completed.jpg";
 import spaceTourismImage from "../assets/space-img.jpg";
-import quizImage from "../assets/logo.png";
-import reehlaImage from "../assets/reehla2.png";
-import realBabsImage from "../assets/reelbabs2.png";
+import quizImage from "../assets/logo.jpg";
+import reehlaImage from "../assets/reehlas.png";
+import realBabsImage from "../assets/reelbabs.png";
 import { useTheme } from "./ThemeMode";
 import shortenImage from "../assets/shorten.jpg"
 import Nav_desktop from "./Nav(desktop)";
