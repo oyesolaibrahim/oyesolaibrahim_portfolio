@@ -31,7 +31,7 @@ const Index = () => {
                         <p id="p-about-self">
                             As a Fullstack web developer, I specialize in creating
                             dynamic and responsive web applications using the powerful
-                            combination of Reactjs, Nodejs, Expressjs, NextJs, Figma, and MongoDB. With a strong foundation
+                            combination of Reactjs, Nodejs, Expressjs, NextJs, Figma, Firebase, and MongoDB. With a strong foundation
                             in these technologies, I am passionate about creating seamless user experience
                             and leveraging the full potential of the fullstack to build
                             robust and scalable web solutions. 

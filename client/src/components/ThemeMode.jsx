@@ -13,7 +13,7 @@ export const ThemeProvider = ({ children }) => {
     technologiesBorder: '1px solid #333333',
     technologiesPercentagesBackgroundColor: '#FFD700',
     technologiesPercentagesBorder: '1px solid ##FFD700',
-    h3BackgroundColor: '#FFD700',
+    h3BackgroundColor: '#D4A017',
     labelsBackgroundColor: '#333333'
   });
 
