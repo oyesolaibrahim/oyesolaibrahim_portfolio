@@ -29,7 +29,7 @@ const About = () => {
                         </div>
                         <div>
                             <p id="p-about-me">
-                                I am Oyesola Ibrahim, Self-Motivated Professional Full Stack Web Developer with 2 years of working experience. 
+                                I am Oyesola Ibrahim, Self-Motivated Professional Full Stack Web Developer with over 2 years of working experience. 
                                 I learnt the basics of Fullstack Development at <a href="https://geegstack.academy/" target="_blank" id="geegstack" rel="noreferrer">Geegstack Academy School of Software Engineering</a>. I'll do bug fixing on your website or if you need
                                  to add more features to your websites. I can convert your desired design into real work as per your requirement.
                                 I'll put all my best efforts and creativity to ensure 100% Satisfaction, Fast_Delivery, and Quality_Services. 
@@ -98,6 +98,12 @@ const About = () => {
                                     <h3>ExpressJS</h3>
                                     <div id="express-level" style={{backgroundColor: theme.technologiesBackgroundColor, border: theme.technologiesBorder}}>
                                         <div id="express-percentage" style={{backgroundColor: theme.technologiesPercentagesBackgroundColor}}></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>NextJS</h3>
+                                    <div id="react-level" style={{backgroundColor: theme.technologiesBackgroundColor, border: theme.technologiesBorder}}>
+                                        <div id="react-percentage" style={{backgroundColor: theme.technologiesPercentagesBackgroundColor}}></div>
                                     </div>
                                 </div>
                             </div>

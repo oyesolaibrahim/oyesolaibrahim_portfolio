@@ -6,7 +6,7 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState({
     mainBackgroundColor: '#000000',
     navBackgroundColor: '#333333',
-    buttonBackgroundColor: '#FFD700',
+    buttonBackgroundColor: '#D4A017 ',
     spanBackgroundColor: '#FFD700',
     navDivbackgroundColor: '#666666',
     technologiesBackgroundColor: '#333333',
